@@ -1,12 +1,12 @@
-// let number =[]
-// number.push(1, 2, 3, 4, 5);
-//
+// // let number =[]
+// // number.push(1, 2, 3, 4, 5);
+// //
 // let books = ["kitob"]
 // books.push("yangi kitob")
-//
-// let names = ["sardor"]
-// names.push("raisboy")
-// console.log(names, books, number);
+// //
+// // let names = ["sardor"]
+// // names.push("raisboy")
+// // console.log(names, books, number);
 
 
 
@@ -100,7 +100,9 @@
 // let symbl = ["a", "b",  "c", "d", "e"]
 // console.log(symbl.slice(3, 5))
 //
-// chala 3 savol yuq
+//
+// let number1 = [1, 2, 3, 4, 5, 6]
+// console.log(number1.slice(0, 3))
 
 
 
@@ -108,7 +110,17 @@
 
 
 
-// 13 SPLICE QILISH KERAK
+// let a =[1,2,3,4]
+// a.splice(2 , 0 , 5)
+// console.log(a)
+//
+// let symbol = ["a", "b", "c", "d"]
+// symbol.splice(1, 2 )
+// console.log(symbol)
+//
+// let number = [10, 20, 30]
+// number.splice(1, 1, 25)
+// console.log(number)
 
 
 
@@ -116,4 +128,19 @@
 
 
 
-// 18 JOIN QILISH KERAK
+// let number = [1, 2, 3]
+// console.log(number.toString())
+
+
+
+
+
+
+// let symbol = ["a", "b", "c"]
+// console.log(symbol.join(", "))
+//
+// let data = ["2025", "05", "30"]
+// console.log(data.join("-"))
+//
+// let IT = ["HTML", "CSS", "JavaScript"]
+// console.log(IT.join(" | "))
